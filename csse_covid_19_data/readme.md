@@ -1,11 +1,15 @@
-## [Daily reports (csse_covid_19_daily_reports)](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports)
+# Capstone project about COVID
+
+## Datasets
+
+### [Daily reports (csse_covid_19_daily_reports)](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports)
 
 This folder contains daily case reports. All timestamps are in UTC (GMT+0).
 
-### File naming convention
+#### File naming convention
 MM-DD-YYYY.csv in UTC.
 
-### Field description
+#### Field description
 * <b>FIPS</b>: US only. Federal Information Processing Standards code that uniquely identifies counties within the USA.
 * <b>Admin2</b>: County name. US only.
 * <b>Province_State</b>: Province, state or dependency name.
@@ -20,8 +24,12 @@ MM-DD-YYYY.csv in UTC.
 * <b>Case_Fatality_Ratio (%)</b>: Case-Fatality Ratio (%) = Number recorded deaths / Number cases.
 * All cases, deaths, and recoveries reported are based on the date of initial report. Exceptions to this are noted in the "Data Modification" and "Retrospective reporting of (probable) cases and deaths" subsections below.  
 
-### Update frequency
+#### Update frequency
 * Since June 15, We are moving the update time forward to occur between 04:45 and 05:15 GMT to accommodate daily updates from India's Ministry of Health and Family Welfare.
 * Files on and after April 23, once per day between 03:30 and 04:00 UTC. 
 * Files from February 2 to April 22: once per day around 23:59 UTC.
 * Files on and before February 1: the last updated files before 23:59 UTC. Sources: [archived_data](https://github.com/CSSEGISandData/COVID-19/tree/master/archived_data) and dashboard.
+
+### [Covid-19 Economic Exposure Index](https://data.humdata.org/dataset/covid-19-economic-exposure-index)
+Country's economic exposure due to COVID-19. Composite indicator based on World Bank's datasets on remittances, food import dependence, primary commodity export dependence, tourism dependence, government indebtedness and foreign currency reserves.
+https://data.humdata.org/dataset/covid-19-economic-exposure-index
